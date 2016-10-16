@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+	<title>Document</title>
+</head>
+<body>
+<div class="wrapper">
+	
+<header>
+	<div id="phone">
+		<img src="img/phone.png">
+	</div>
+	<span>(044)123-45-67</span>
+	<span>(044)567-89-10</span>
+	<div id="login">
+		<form action="#" method="POST">
+			<i class="fa fa-user" id="user-icon" aria-hidden="true"></i>
+			<input type="text" name="login" placeholder="логин"></input>
+			<input type="password" name="password" placeholder="пароль"></input>
+			<a href="#">вход</a><span class=devider>|</span><a href="#">регистрация</a>
+			<a href="#" class="fogot_pass">забыли пароль?</a>
+		</form>
+	</div>
+	<div class="hot-pages">
+		<i class="fa fa-home" aria-hidden="true"></i>
+		<i class="fa fa-sitemap" aria-hidden="true"></i>
+		<i class="fa fa-envelope-o" aria-hidden="true"></i>
+	</div>
+	<img src="img/head.png" id="head">
+</header>
+<nav>
+	<div class="infocart">
+	<i class="fa fa-shopping-cart" aria-hidden="true"></i>
+	<span>товаров:</span>
+	0
+	<span>на сумму:</span>
+	0,00грн
+	</div>
+	<ul>
+		<a href="#"><li id="aboutus">О КОМПАНИ</li></a>
+		<a href="#"><li id="pay" class="menu-active">ОПЛАТА</li></a>
+		<a href="#"><li id="delivery">ДОСТАВКА</li></a>
+		<a href="#"><li id="articles">СТАТЬИ</li></a>
+		<a href="#"><li id="contacts">КОНТАКТЫ</li></a>
+	</ul>
+</nav>
+<div class="filter">
+	<div class="bycar">
+		<span class="disks">Диски:</span>
+		<span class="wheels">Шины:</span>
+		<h2>Поиск по автомобилю</h2>
+
+		<section class="lside">
+			<label for="ltype" class="singleline">Марка <span class="marked">авто</span></label>
+				<select name="ltype" class="cool">
+					<option></option>
+					<option>Toyota</option>
+					<option>Audi</option>
+					<option>BMW</option>
+				</select>
+			<label for="lmodel">Модель <span class="marked">автомобиля</span></label>
+				<select name="lmodel" class="cool">
+					<option></option>
+					<option>Sedan</option>
+					<option>Hach Back</option>
+					<option>Cabriolet</option>
+				</select>
+			<label for="lbuiltyear">Год выпуска <span class="marked">автомобиля</span></label>
+				<select name="lbuiltyear">
+					<option></option>
+					<option>2016</option>
+					<option>2015</option>
+					<option>2014</option>
+				</select>
+			<label for="lcomplectation" class="singleline">Комплектация</label>
+				<select name="lcomplectation" class="cool">
+					<option></option>
+					<option>Вилюр</option>
+					<option>Кожа</option>
+					<option>Кож-зам</option>
+				</select>
+		</section>
+		
+		<section class="rside">
+			<label for="rtype" class="singleline">Марка <span class="marked">авто</span></label>
+				<select name="rtype" class="cool">
+					<option></option>
+					<option>Toyota</option>
+					<option>Audi</option>
+					<option>BMW</option>
+				</select>
+			<label for="rmodel">Модель <span class="marked">автомобиля</span></label>
+				<select name="rmodel" class="cool">
+					<option></option>
+					<option>Sedan</option>
+					<option>Hach Back</option>
+					<option>Cabriolet</option>
+				</select>
+			<label for="rbuiltyear">Год выпуска <span class="marked">автомобиля</span></label>
+				<select name="rbuiltyear">
+					<option></option>
+					<option>2016</option>
+					<option>2015</option>
+					<option>2014</option>
+				</select>
+			<label for="rcomplectation" class="singleline">Комплектация</label>
+				<select name="rcomplectation" class="cool">
+					<option></option>
+					<option>Вилюр</option>
+					<option>Кожа</option>
+					<option>Кож-зам</option>
+				</select>
+		</section>
+		<div class="find">поиск...</div>
+
+
+
+	</div>
+	<div class="bywheels"><h2>поиск шин</h2>
+			<label for="wheelsizea" class="singleline">Размер: </label>
+				<select name="wheelsizea">
+					<option></option>
+					<option>145</option>
+					<option>150</option>
+					<option>155</option>
+				</select>
+				/
+				<select name="wheelsizeb">
+					<option></option>
+					<option>145</option>
+					<option>150</option>
+					<option>155</option>
+				</select>
+			<label for="wheelradius" class="ssingleline">R </label>
+				<select name="wheelradius" class="whileradius">
+					<option></option>
+					<option>15</option>
+					<option>16</option>
+					<option>17</option>
+				</select><br>
+			<label for="wheelseason">Сезон </label>
+				<section class="checkboxes">
+				<label for="summer"><input type="checkbox" name="summer">Лето</label>
+				<label for="winter"><input type="checkbox" name="winter">Зима</label>
+				<label for="allseason"><input type="checkbox" name="allseason">Всесез</label>
+				</section>
+		<div class="find">поиск...</div>
+	</div>
+	<div class="bydisks">
+		<section class="ldisks">
+		<h2>поиск дисков</h2>
+			<label for="wheeldiam" class="ssingleline">Диаметр <span class="marked">диска</span></label>
+				<select name="wheeldiam" class="wheeldiam">
+					<option></option>
+					<option>15</option>
+					<option>16</option>
+					<option>17</option>
+				</select><br>
+			<label for="wheelholders">Количество <span class="marked">крепежных отверстий</span></label>
+				<select name="wheelholders" class="wheeldiam">
+					<option></option>
+					<option>15</option>
+					<option>16</option>
+					<option>17</option>
+				</select>
+			<label for="diamholders">Диметр <span class="marked">расположения крепежных отверстий</span></label>
+				<select name="diamholders" class="wheeldiam">
+					<option></option>
+					<option>8</option>
+					<option>9</option>
+					<option>10</option>
+				</select>
+		</section>
+		<section class="rdisks">
+			<label for="dco">ДЦО <span class="marked">(диаметр центрального отверстия):</span></label>
+				<select name="dco" class="wheel">
+					<option></option>
+					<option>8</option>
+					<option>9</option>
+					<option>10</option>
+				</select>
+			<label for="et">ET <br><span class="marked">(вылет диска):</span></label>
+				<select name="dco" class="wheel">
+					<option></option>
+					<option>8</option>
+					<option>9</option>
+					<option>10</option>
+				</select>
+		</section>
+		<div class="find">поиск...</div>
+	</div>
+</div>
+<div class="mbody">
+<aside class="asideleft">
+	<div class="title">Каталог продукции:</div>
+	<div class="subtitle">Шины:</div>
+	<ul>
+		<li><a href="#">Наименование 1</a></li>
+		<li><a href="#">Наименование 2</a></li>
+		<li><a href="#">Наименование 3</a></li>
+		<li><a href="#">Наименование 4</a></li>
+	</ul>
+	<div class="subtitle">Диски:</div>
+	<ul>
+		<li><a href="#">Наименование 1</a></li>
+		<li><a href="#">Наименование 2</a></li>
+		<li><a href="#">Наименование 3</a></li>
+		<li><a href="#">Наименование 4</a></li>
+	</ul>
+	<div class="subtitle">Болты:</div>
+	<ul>
+		<li><a href="#">Наименование 1</a></li>
+		<li><a href="#">Наименование 2</a></li>
+		<li><a href="#">Наименование 3</a></li>
+		<li><a href="#">Наименование 4</a></li>
+	</ul>
+</aside>
+<main>
+	<figure>
+		<figcaption>Goodyear</figcaption>
+		<p>Ultra Grip Extreme</p>
+		<div class="imgwheel"><img src="img/wheel1.png"></div>
+		<span>90.00 грн</span>
+	</figure>
+	<figure>
+		<figcaption>Nokian</figcaption>
+		<p>Hakkapeliitta R</p>
+		<div class="imgwheel"><img src="img/wheel2.png"></div>
+		<span>115.00 грн</span>
+	</figure>
+	<figure>
+		<figcaption>Hankook</figcaption>
+		<p>K 708 155/65 R14</p>
+		<div class="imgwheel"><img src="img/wheel3.png"></div>
+		<span>393.00 грн</span>
+	</figure>
+<figure>
+		<figcaption>Goodyear</figcaption>
+		<p>Ultra Grip Extreme</p>
+		<div class="imgwheel"><img src="img/wheel1.png"></div>
+		<span>90.00 грн</span>
+	</figure>
+	<figure>
+		<figcaption>Nokian</figcaption>
+		<p>Hakkapeliitta R</p>
+		<div class="imgwheel"><img src="img/wheel2.png"></div>
+		<span>115.00 грн</span>
+	</figure>
+	<figure>
+		<figcaption>Hankook</figcaption>
+		<p>K 708 155/65 R14</p>
+		<div class="imgwheel"><img src="img/wheel3.png"></div>
+		<span>393.00 грн</span>
+	</figure>
+	<figure>
+		<figcaption>Goodyear</figcaption>
+		<p>Ultra Grip Extreme</p>
+		<div class="imgwheel"><img src="img/wheel1.png"></div>
+		<span>90.00 грн</span>
+	</figure>
+	<figure>
+		<figcaption>Nokian</figcaption>
+		<p>Hakkapeliitta R</p>
+		<div class="imgwheel"><img src="img/wheel2.png"></div>
+		<span>115.00 грн</span>
+	</figure>
+	<figure>
+		<figcaption>Hankook</figcaption>
+		<p>K 708 155/65 R14</p>
+		<div class="imgwheel"><img src="img/wheel3.png"></div>
+		<span>393.00 грн</span>
+	</figure>
+</main>
+<aside class="asideright">
+	<div class="title">Бренды:</div>
+	<div class="subtitle">Шины:</div>
+	<ul>
+		<li><inpit type="checkbox" name="chname1">Наименование 1</li>
+		<li><inpit type="checkbox" name="chname1">Наименование 2</li>
+		<li><inpit type="checkbox" name="chname1">Наименование 3</li>
+		<li><inpit type="checkbox" name="chname1">Наименование 4</li>
+	</ul>
+	<div class="subtitle">Диски:</div>
+	<ul>
+		<li><a href="#">Наименование 1</a></li>
+		<li><a href="#">Наименование 2</a></li>
+		<li><a href="#">Наименование 3</a></li>
+		<li><a href="#">Наименование 4</a></li>
+	</ul>
+	<button>Выбрать</button>
+</aside>
+</div>
+	<div class="partners">
+		<a href="#"><img src="img/partner1.png" alt="" class="footerimg"></a>
+		<a href="#"><img src="img/partner2.png" alt="" class="footerimg"></a>
+		<a href="#"><img src="img/partner3.png" alt="" class="footerimg"></a>
+		<a href="#"><img src="img/partner4.png" alt="" class="footerimg"></a>
+		<a href="#"><img src="img/partner5.png" alt="" class="footerimg"></a>
+		<a href="#"><img src="img/partner6.png" alt="" class="footerimg"></a>
+		<a href="#"><img src="img/partner7.png" alt="" class="footerimg"></a>
+		<a href="#"><img src="img/partner8.png" alt="" class="footerimg"></a>
+	</div>
+<footer>
+	<div class="footermenu">
+		<a href="#" class="active">О компании</a>
+		<a href="#">Доставка</a>
+		<a href="#">Статьи</a>
+		<a href="#">Контакты</a>
+	</div>
+	<copyright>Создание сайта &copy; Global Vision</copyright>
+</footer>
+</div>
+</body>
+</html>
