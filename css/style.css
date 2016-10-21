@@ -394,7 +394,7 @@ line-height: 8px;
 		margin-top: 9px;
 	}
 	aside .title:before{
-		content:url(img/title2.png);
+		content:url(../img/title2.png);
 		background: #206988;
 		background: linear-gradient(to bottom, #206988 0%,#114165 59%,#0c3256 100%);
 		border:0px;
@@ -416,7 +416,7 @@ line-height: 8px;
 		margin-right: 32px;
 	}
 	aside .subtitle:before{
-		content:url(img/title3.png);
+		content:url(../img/title3.png);
 		/*background: #206988;
 		background: linear-gradient(to bottom, #206988 0%,#114165 59%,#0c3256 100%);
 		border:0px;
