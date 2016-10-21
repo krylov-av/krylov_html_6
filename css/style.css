@@ -215,7 +215,7 @@
 		width:57px;
 		overflow: hidden;
 		overflow: -moz-hidden-unscrollable;
-		background: url(img/arrow_down.png) no-repeat right white;
+		background: url(../img/arrow_down.png) no-repeat right white;
 		appearance:none;
 			-moz-appearance:none; /* Firefox */
 			-webkit-appearance:none; /* Safari and Chrome */
