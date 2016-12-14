@@ -21,7 +21,10 @@
 			<i class="fa fa-user" id="user-icon" aria-hidden="true"></i>
 			<input type="text" name="login" placeholder="логин"></input>
 			<input type="password" name="password" placeholder="пароль"></input>
-			<a href="#">вход</a><span class=devider>|</span><a href="#">регистрация</a>
+			<!--<a href="#">вход</a>-->
+			<input type="submit" value="вход" class="enter">
+
+			<span class=devider>|</span><a href="#">регистрация</a>
 			<a href="#" class="fogot_pass">забыли пароль?</a>
 		</form>
 	</div>
@@ -42,7 +45,7 @@
 	</div>
 	<ul>
 		<a href="#"><li id="aboutus">О КОМПАНИ</li></a>
-		<a href="#"><li id="pay" class="menu-active">ОПЛАТА</li></a>
+		<a href="#"><li id="pay">ОПЛАТА</li></a>
 		<a href="#"><li id="delivery">ДОСТАВКА</li></a>
 		<a href="#"><li id="articles">СТАТЬИ</li></a>
 		<a href="#"><li id="contacts">КОНТАКТЫ</li></a>
@@ -275,34 +278,33 @@
 		<span>393.00 грн</span>
 	</figure>
 </main>
-<aside class="asideright">
+<form class="asideright" action="#" method="POST">
 	<div class="title">Бренды:</div>
-	<div class="subtitle">Шины:</div>
+	<div class="subtitle subtitle--right">Шины:</div>
 	<ul>
-		<li><inpit type="checkbox" name="chname1">Наименование 1</li>
-		<li><inpit type="checkbox" name="chname1">Наименование 2</li>
-		<li><inpit type="checkbox" name="chname1">Наименование 3</li>
-		<li><inpit type="checkbox" name="chname1">Наименование 4</li>
+		<li><input type="checkbox" name="chname1">Брэнд 1</li>
+		<li><input type="checkbox" name="chname2">Брэнд 2</li>
+		<li><input type="checkbox" name="chname3">Брэнд 3</li>
 	</ul>
-	<div class="subtitle">Диски:</div>
+	<div class="subtitle subtitle--right">Диски:</div>
 	<ul>
-		<li><a href="#">Наименование 1</a></li>
-		<li><a href="#">Наименование 2</a></li>
-		<li><a href="#">Наименование 3</a></li>
-		<li><a href="#">Наименование 4</a></li>
+		<li><input type="checkbox" name="diname1">Брэнд 1</li>
+		<li><input type="checkbox" name="diname2">Брэнд 2</li>
+		<li><input type="checkbox" name="diname3">Брэнд 3</li>
 	</ul>
-	<button>Выбрать</button>
-</aside>
+	<input type="submit" value="Выбрать" class="check">
+</form>
 </div>
 	<div class="partners">
-		<a href="#"><img src="img/partner1.png" alt="" class="footerimg"></a>
-		<a href="#"><img src="img/partner2.png" alt="" class="footerimg"></a>
-		<a href="#"><img src="img/partner3.png" alt="" class="footerimg"></a>
-		<a href="#"><img src="img/partner4.png" alt="" class="footerimg"></a>
-		<a href="#"><img src="img/partner5.png" alt="" class="footerimg"></a>
-		<a href="#"><img src="img/partner6.png" alt="" class="footerimg"></a>
-		<a href="#"><img src="img/partner7.png" alt="" class="footerimg"></a>
-		<a href="#"><img src="img/partner8.png" alt="" class="footerimg"></a>
+		<a href="#" class="partner1"><img src="img/partner1.png" alt="" class="footerimg"></a>
+		<a href="#" class="partner2"><img src="img/partner2.png" alt="" class="footerimg"></a>
+		<a href="#" class="partner7"><img src="img/partner7.png" alt="" class="footerimg"></a>
+		<a href="#" class="partner5"><img src="img/partner5.png" alt="" class="footerimg"></a>
+
+		<a href="#" class="partner4"><img src="img/partner4.png" alt="" class="footerimg"></a>
+		<a href="#" class="partner3"><img src="img/partner3.png" alt="" class="footerimg"></a>
+		<a href="#" class="partner6"><img src="img/partner6.png" alt="" class="footerimg"></a>
+		<a href="#" class="partner8"><img src="img/partner8.png" alt="" class="footerimg"></a>
 	</div>
 <footer>
 	<div class="footermenu">
